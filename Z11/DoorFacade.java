@@ -2,9 +2,9 @@ package practice_15.Z11;
 
 public class DoorFacade {
 
-    DoorOpen doorOpen;
-    DoorClose doorClose;
-    DoorLock doorLock;
+    private DoorOpen doorOpen;
+    private DoorClose doorClose;
+    private DoorLock doorLock;
 
     public DoorFacade() {
         this.doorOpen = new DoorOpen();
