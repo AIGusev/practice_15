@@ -10,7 +10,7 @@ public class MilesToKilometersAdapter implements Distance{
 
     @Override
     public double value() {
-        return miles.value * 1.609344;
+        return miles.value() * 1.609344;
     }
 
     @Override
